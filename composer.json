@@ -3,6 +3,8 @@
   "description": "SDK for crypto exchanges integration starting with Whitebit",
   "type": "library",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": "^8.0",
     "guzzlehttp/guzzle": "^7.0"
