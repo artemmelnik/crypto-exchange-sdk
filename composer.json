@@ -1,0 +1,20 @@
+{
+  "name": "artemmelnik/crypto-exchange-sdk",
+  "description": "SDK for crypto exchanges integration starting with Whitebit",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CryptoExchange\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Artem Melnik",
+      "email": "artemmelnik989@gmail.com"
+    }
+  ]
+}

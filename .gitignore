@@ -1,0 +1,28 @@
+# OS/IDE specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# Dependency directories
+.env
+.env.local
+.env.*
+
+# Composer
+/vendor/
+composer.phar
+
+# PHPUnit / Code Coverage
+/phpunit.xml
+/phpunit.xml.dist
+coverage/
+reports/
+
+# Behat
+*.log
+*.cache
+*.tmp
+tmp/
